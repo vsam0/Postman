@@ -1,0 +1,270 @@
+{
+	"info": {
+		"_postman_id": "d120ccb9-4d61-4501-9d22-cda9da789cd6",
+		"name": "Group_29",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20503223"
+	},
+	"item": [
+		{
+			"name": "EP_1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/get_method?name=Viktoria&age=23",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Viktoria"
+						},
+						{
+							"key": "age",
+							"value": "23"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Maria",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "55",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "2000",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_3",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_1?name=Igor&age=28&weight=89",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Igor"
+						},
+						{
+							"key": "age",
+							"value": "28"
+						},
+						{
+							"key": "weight",
+							"value": "89"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_2?name=Irina&age=25&salary=1500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Irina"
+						},
+						{
+							"key": "age",
+							"value": "25"
+						},
+						{
+							"key": "salary",
+							"value": "1500"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_3?name=Sveta&age=32&salary=3200",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sveta"
+						},
+						{
+							"key": "age",
+							"value": "32"
+						},
+						{
+							"key": "salary",
+							"value": "3200"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5005/object_info_4?name=Ivan&age=20&salary=1500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Ivan"
+						},
+						{
+							"key": "age",
+							"value": "20"
+						},
+						{
+							"key": "salary",
+							"value": "1500"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "EP_7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Nataly",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "23",
+							"type": "text"
+						},
+						{
+							"key": "salary",
+							"value": "1800",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_2",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
